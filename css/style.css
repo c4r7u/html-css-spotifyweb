@@ -33,7 +33,7 @@ main {
 }
 /* main nav  */
 .main-nav {
-    color: white;
+    color: #6c6c6c;
     padding-left: 10px;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,6 @@ main {
 .nav-actions {
     height: 120px;
     background-color: black;
-    color: white;
 }
 
 .nav-icons {
@@ -64,25 +63,34 @@ main {
     vertical-align: middle;
 }
 
+
 .element {
     font-size: 15px;
     padding: 3px;
 }
 
 .nav-playlists {
-    line-height: 26px;
+    line-height: 34px;
     flex-grow: 1;
     overflow: hidden;
     background-color: black;
-    padding: 10px 0;
 }
 
+.plus-playlist  {
+    margin-left: 10px;
+    align-self: center;
+}   
 
+h3 {
+    padding: 5px 0;
+}
 
 .nav-playlists ul {
     overflow-y: auto;
     height: 80%;
 }
+
+
 
 .create-playlist {
     display: flex;
@@ -91,14 +99,39 @@ main {
 }
 
 .new-playlist {
-    font-size: 30px;
+    font-size: 40px;
     vertical-align: middle;
+    padding: 5px 0;
 }
 
 
 .user {
-    background-color: blue;
+    background-color: black;
+}
+
+.install {
+    padding: 10px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.nav-icons-end {
+    height: 15px;
+    padding: 0 3px;
+    vertical-align: middle;
+}
+
+.nav-icon-profile {
+    height: 40px;
+    padding: 5px 3px;
+    vertical-align: middle;
+    background-color: grey;
+    border-radius: 50px;
+    margin: 6px 0;
+}
+
+.profile {
     color: white;
+    margin-left: 10px;
 }
 
 
