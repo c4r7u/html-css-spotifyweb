@@ -6,7 +6,7 @@
 
 /* common */
 body {
-    font-family: Monserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .upgrade-bar {
@@ -33,28 +33,33 @@ main {
 }
 /* main nav  */
 .main-nav {
+    color: white;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     min-height: 400px;
     float: left;
     width: 250px;
     height: 100%;
-    background-color: lightslategray;
+    background-color: black;
 }
 
 .logo {
-    height: 80px;
-    width: 100%;
-    background-color: lightskyblue;
+    padding: 5px;
+    height: 90px;
+    width: 87%;
+    background-color: black;
 }
 
 .nav-actions {
     height: 120px;
-    background-color: lightyellow;
+    background-color: black;
+    color: white;
 }
 
-.action-icons {
+.nav-icons {
     font-size: 35px;
+    height: 32px;
     padding: 0 3px;
     vertical-align: middle;
 }
@@ -65,9 +70,14 @@ main {
 }
 
 .nav-playlists {
+    line-height: 26px;
     flex-grow: 1;
-    background-color: mediumorchid;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 0;
 }
+
+
 
 .nav-playlists ul {
     overflow-y: auto;
@@ -75,9 +85,16 @@ main {
 }
 
 .create-playlist {
+    display: flex;
     font-size: 18px;
     font-weight: 900;
 }
+
+.new-playlist {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
 
 .user {
     background-color: blue;
